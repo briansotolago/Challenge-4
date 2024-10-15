@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px solid black;
+    margin-bottom: 0.5%;
+}
+
+
+#theme{
+
+    width: 1.5%;
+   margin: 1%;
+}
