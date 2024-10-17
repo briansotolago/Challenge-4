@@ -1,26 +1,50 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
-    display: flex;
-    justify-content: flex-end;
-    border-bottom: 2px solid black;
-    margin-bottom: 0.5%;
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fafafa;
 }
 
+header {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px solid #333;
+    padding: 0.5rem 1rem;
+    background-color: #eaeaea;
+}
 
-#theme{
-
-    width: 1.5%;
-   margin: 1%;
+#theme {
+    width: 2%;
+    margin: 0.5%;
+    cursor: pointer;
 }
 
 .dark-mode {
     background-color: #333;
     color: #fff;
+}
+
+.dark-mode header{
+    background-color: #222;
+}
+
+.dark-mode h2{
+    color: #fff;
+}
+
+.dark-mode main figure{
+    border-color: #666;
+}
+
+.dark-mode button{
+    color: #fff;
+    background-color: #555;
+    border-color: #444;
 }
 
 .dark-mode header,
@@ -31,4 +55,8 @@ header{
 .dark-mode article {
     background-color: #444;
     border-color: #666;
+}
+
+.dark-mode footer{
+    background-color: #222;
 }

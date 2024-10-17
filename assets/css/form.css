@@ -1,59 +1,63 @@
-
-
-
-main{
+main {
     display: flex;
     flex-wrap: wrap;
-    border-top: 2px solid black;
-  
+    border-top: 2px solid #333;
+    padding: 1%;
 }
 
-main figure{
-    flex: 1 0 45%;
-  
+main figure {
+    flex: 1 0 50%;
     box-sizing: border-box;
-   display: flex;
-   justify-content: center;
-   padding-top: 1%;
-   border-left: 2px solid black;
-  
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-right: 2%;
+    border-right: solid 4px #333;
 }
-main figcaption{
-    background-image: linear-gradient( yellow, black);
-    width: 70%;
-    padding: 0 20%;
+
+main figcaption {
+    background-image: linear-gradient(to bottom right, #00ff26, #fbff00);
+    width: 60%;
+    padding: 2%;
     border-radius: 50%;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
 
+figcaption h1 {
+    color: #333;
+    font-size: 1.8rem;
+    text-align: center;
 }
-figcaption h1{
-    width: 100%;
-    
-}
- 
-    
-main section{
+
+main section {
     flex: 1 0 45%;
-    display:flex ;
-    justify-content: center;
-     flex-direction: column;
-     width: 100%;
-     border-left: 2px solid black;
-}
-section h2{
+    margin-top: 200px;
     display: flex;
-    width: 100%;
+    flex-direction: column;
     justify-content: center;
-}
- 
-main form{
-    width: 100%;
-    padding: 0 5%;
+    padding: 1%;
 }
 
-input,textarea {
-    width: 100%;
+section h2 {
+    display: flex;
+    justify-content: center;
+    color: #333;
+    margin-bottom: 1rem;
 }
 
+main form {
+    width: 90%;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
