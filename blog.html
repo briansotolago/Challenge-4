@@ -4,41 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Linking CSS stylesheets for styling the blog and form -->
     <link rel="stylesheet" href="./assets/css/blog.css">
-
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
     <header>
-
+        <!-- Back button to return to the main page -->
         <button onclick="window.location.href='index.html'">Back</button>
-        <img id="theme" src="https://static-00.iconduck.com/assets.00/sun-symbol-emoji-1024x1024-ys649vi7.png" 
-        data-sun="https://static-00.iconduck.com/assets.00/sun-symbol-emoji-1024x1024-ys649vi7.png"
-        data-moon="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Weather_icon_-_full_moon.svg/1200px-Weather_icon_-_full_moon.svg.png"   
-        data-status="sun"  
-        alt="">
-       </header>
+        <!-- Theme toggle button (sun/moon icon) for dark mode/light mode -->
+        <img id="theme" 
+             src="https://static-00.iconduck.com/assets.00/sun-symbol-emoji-1024x1024-ys649vi7.png" 
+             data-sun="https://static-00.iconduck.com/assets.00/sun-symbol-emoji-1024x1024-ys649vi7.png"
+             data-moon="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Weather_icon_-_full_moon.svg/1200px-Weather_icon_-_full_moon.svg.png"   
+             data-status="sun"  
+             alt="">
+    </header>
 
-       <main>
+    <main>
         <section>
             <article>
-                 <h3>blog title</h3>
-                 <hr>
-                 <p class="sentence">this is first blog</p>
-                 <p>Posted By: <span>Brian</span></p>
+                <h3>blog title</h3> <!-- Title of the blog post -->
+                <hr> <!-- Horizontal line for separation -->
+                <p class="sentence">this is first blog</p> <!-- Short description or quote from the blog -->
+                <p>Posted By: <span>Brian</span></p> <!-- Author's name -->
             </article>
         </section>
-       </main>
+    </main>
 
-       <footer>
+    <footer>
+        <!-- Footer content with links and author information -->
         <h4>Made with <span> &#10084 </span> by Brian</h4>
         <p>Portfolio: <a href="https://briansotolago.github.io/Challenge-2/" target="_blank">here</a></p>
         <p>Blog: <a href="https://briansotolago.github.io/Challenge-4/" target="_blank">Brian's first blog</a></p>
         <p>Email: <a href="mailto:briansoto.bs23@gmial.com">briansoto.bs23@gmial.com</a></p>
-       </footer>
-    
-    
+    </footer>
+
+    <!-- Linking JavaScript files for blog functionality -->
     <script src="./assets/js/blog.js"></script>
+    <script src="./assets/js/form.js"></script>
     <script src="./assets/js/logic.js"></script>
 </body>
 </html>

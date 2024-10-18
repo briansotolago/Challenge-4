@@ -4,50 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Linking CSS stylesheets for styling the blog and form -->
     <link rel="stylesheet" href="./assets/css/form.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
     <header>
-
-
-     <img id="theme" src="https://static-00.iconduck.com/assets.00/sun-symbol-emoji-1024x1024-ys649vi7.png" 
-     data-sun="https://static-00.iconduck.com/assets.00/sun-symbol-emoji-1024x1024-ys649vi7.png"
-     data-moon="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Weather_icon_-_full_moon.svg/1200px-Weather_icon_-_full_moon.svg.png"   
-     data-status="sun"  
-     alt="">
+        <!-- Theme toggle button (sun/moon icon) for dark mode/light mode -->
+        <img id="theme" 
+             src="https://static-00.iconduck.com/assets.00/sun-symbol-emoji-1024x1024-ys649vi7.png" 
+             data-sun="https://static-00.iconduck.com/assets.00/sun-symbol-emoji-1024x1024-ys649vi7.png"
+             data-moon="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Weather_icon_-_full_moon.svg/1200px-Weather_icon_-_full_moon.svg.png"   
+             data-status="sun"  
+             alt="">
     </header>
     
     <main>
-
-         <figure>
-             <figcaption>
-                <h1>Brian's first blog</h1>
-             </figcaption>
-
-            
-         </figure>
-         <section>
-            <h2>What's on your mind?</h2>
-             <form id="blog-form">
+        <figure>
+            <figcaption>
+                <h1>Brian's first blog</h1> <!-- Main title of the blog -->
+            </figcaption>
+        </figure>
+        
+        <section>
+            <h2>What's on your mind?</h2> <!-- Section heading for the blog form -->
+            <form id="blog-form"> <!-- Form for submitting blog posts -->
                 <label for="username">Username</label>
                 <br>
-                <input type="text" id="username">
+                <input type="text" id="username"> <!-- Input field for username -->
                 <br>
                 <label for="title">Title</label>
                 <br>
-                <input type="text" id="title">
+                <input type="text" id="title"> <!-- Input field for blog title -->
                 <br>
-
                 <label for="content">Content</label>
                 <br>
-                <textarea name="" id="content"></textarea>
+                <textarea id="content"></textarea> <!-- Text area for blog content -->
                 <br>
-                <input type="submit" value="Submit">
-             </form>
-         </section>
+                <input type="submit" value="Submit"> <!-- Submit button for the form -->
+            </form>
+        </section>
     </main>
 
+    <!-- Linking JavaScript files for blog functionality -->
     <script src="./assets/js/form.js"></script>
     <script src="./assets/js/logic.js"></script>
 </body>

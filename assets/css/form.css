@@ -1,93 +1,102 @@
+/* Main section styles */
 main {
-    display: flex;
-    flex-wrap: wrap;
-    border-top: 1px solid #bbb; 
-    padding: 1rem;
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Wrap elements */
+    border-top: 1px solid #bbb; /* Top border */
+    padding: 1rem; /* Padding inside main */
 }
 
+/* Figure styles within main */
 main figure {
-    flex: 1 0 50%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    padding-top: 1rem;
-    padding-right: 1rem;
-    border-right: solid 3px #bbb; 
+    flex: 1 0 50%; /* Flex settings for figure */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center content */
+    padding-top: 1rem; /* Padding at the top */
+    padding-right: 1rem; /* Right padding */
+    border-right: solid 3px #bbb; /* Right border */
 }
 
+/* Figcaption styles */
 main figcaption {
-    background-image: linear-gradient(to bottom right, #a3e635, #fde047); 
-    width: 60%;
-    padding: 1.5%;
-    border-radius: 50%;
-    height: 55vh; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: linear-gradient(to bottom right, #a3e635, #fde047); /* Gradient background */
+    width: 60%; /* Width setting */
+    padding: 1.5%; /* Padding inside figcaption */
+    border-radius: 50%; /* Rounded corners */
+    height: 55vh; /* Height setting */
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
 }
 
+/* Heading styles in figcaption */
 figcaption h1 {
-    color: #333;
-    font-size: 1.8rem;
-    text-align: center;
+    color: #333; /* Heading color */
+    font-size: 1.8rem; /* Font size */
+    text-align: center; /* Centered text */
 }
 
+/* Section styles within main */
 main section {
-    flex: 1 0 45%;
-    margin-top: 100px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1rem;
+    flex: 1 0 45%; /* Flex settings for section */
+    margin-top: 100px; /* Top margin */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Column layout */
+    justify-content: center; /* Center content */
+    padding: 1rem; /* Padding inside section */
 }
 
+/* Heading styles in section */
 section h2 {
-    display: flex;
-    justify-content: center;
-    color: #333;
-    margin-bottom: 1rem;
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Centered text */
+    color: #333; /* Heading color */
+    margin-bottom: 1rem; /* Bottom margin */
 }
 
+/* Form styles within main */
 main form {
-    width: 90%;
-    margin: auto;
+    width: 90%; /* Form width */
+    margin: auto; /* Center form */
 }
 
+/* Input and textarea styles */
 input, textarea {
-    width: 100%;
-    margin: 0.5rem 0;
-    padding: 0.7rem;
-    border: 1px solid #ccc; 
-    border-radius: 4px;
-    background-color: #f7f7f7; 
+    width: 100%; /* Full width */
+    margin: 0.5rem 0; /* Margin */
+    padding: 0.7rem; /* Padding */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #f7f7f7; /* Background color */
 }
 
 /* Light mode styles for the submit button */
 input[type="submit"] {
-    width: 100%;
-    margin: 1rem 0;
-    padding: 0.8rem;
-    border: none;
-    border-radius: 5px;
-    background-image: linear-gradient(to bottom right, #a3e635, #fde047); 
-    color: #222; 
-    cursor: pointer; 
-    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s; 
+    width: 100%; /* Full width */
+    margin: 1rem 0; /* Margin */
+    padding: 0.8rem; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    background-image: linear-gradient(to bottom right, #a3e635, #fde047); /* Gradient background */
+    color: #222; /* Text color */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s; /* Transition effects */
 }
 
+/* Hover effect for the submit button */
 input[type="submit"]:hover {
-    transform: scale(1.02); 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.02); /* Scale effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
 }
 
 /* Dark mode styles for the submit button */
 .dark-mode input[type="submit"] {
-    background-image: linear-gradient(to bottom right, #a3e635, #fde047); 
-    color: #222; 
+    background-image: linear-gradient(to bottom right, #a3e635, #fde047); /* Gradient background */
+    color: #222; /* Text color */
 }
 
+/* Dark mode hover effect for the submit button */
 .dark-mode input[type="submit"]:hover {
-    transform: scale(1.02); 
-    box-shadow: 0 4px 8px rgba(225, 225, 225, 0.2); 
+    transform: scale(1.02); /* Scale effect */
+    box-shadow: 0 4px 8px rgba(225, 225, 225, 0.2); /* Shadow effect */
 }
-

@@ -1,48 +1,58 @@
+/* Styles for the main article */
 main article {
    padding: 1rem;
    margin: 1rem;
-   border: 1px solid #bbb;
-   background-color: #f9f9f9; 
+   border: 1px solid #bbb; /* Border color */
+   background-color: #f9f9f9; /* Background color */
 }
 
+/* Italic style for sentences */
 .sentence {
    font-style: italic;
    margin-bottom: 1rem; 
 }
 
+/* Footer styles */
 footer {
-   border-top: 1px solid #bbb; 
-   padding: 0.5rem;
-   background-color: #e0e0e0; 
-   text-align: center;
+   border-top: 1px solid #bbb; /* Top border */
+   padding: 0.5rem; /* Padding inside footer */
+   background-color: #e0e0e0; /* Background color */
+   text-align: center; /* Centered text */
 }
 
+/* Footer heading styles */
 footer h4 {
-   margin: 0.5rem 0;
-   font-weight: normal;
+   margin: 0.5rem 0; /* Margin for footer heading */
+   font-weight: normal; /* Normal weight */
 }
 
+/* Footer paragraph styles */
 footer p {
-   font-style: italic;
-   margin: 0.2rem 0;
+   font-style: italic; /* Italic style */
+   margin: 0.2rem 0; /* Margin for paragraphs */
 }
 
+/* Link styles in footer */
 footer a {
-color: #66a500;
+   color: #66a500; /* Link color */
 }
 
+/* Link hover effect in footer */
 footer a:hover {
-   color: #273f00;
+   color: #273f00; /* Hover color */
 }
 
+/* Dark mode styles for footer */
 .dark-mode footer {
-   background-color: #2b2b2b;
+   background-color: #2b2b2b; /* Dark background */
 }
 
+/* Dark mode link styles in footer */
 .dark-mode footer a {
-   color: #a3e635; 
+   color: #a3e635; /* Dark mode link color */
 }
 
+/* Dark mode link hover effect in footer */
 .dark-mode footer a:hover {
-   color: #ccc;
+   color: #ccc; /* Dark mode hover color */
 }
